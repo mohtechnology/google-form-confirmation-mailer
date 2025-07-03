@@ -31,7 +31,7 @@ function onFormSubmit(e) {
   blob.setName(`MohTechnology_Confirmation_${name}.pdf`);
 
   // Email content with "Learn More" button
-  var subject = "🎉 Thank You for Registering – Moh Technology";
+  var subject = "Thank You for Registering – Moh Technology";
   var htmlBody = `
     <div style="font-family: Arial; font-size: 15px;">
       <p>Hi <b>${name}</b>,</p>
@@ -39,7 +39,7 @@ function onFormSubmit(e) {
       <p>Please find your confirmation letter attached as a PDF.</p>
       <p>
         <a href="https://www.youtube.com/@MohTechnology" style="background-color: #2563eb; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;" target="_blank">
-          🚀 Learn More
+          Learn More
         </a>
       </p>
       <p>With appreciation,<br><b>Team Moh Technology</b></p>
